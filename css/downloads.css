@@ -1,0 +1,40 @@
+body{
+    color: #f5f5f0;
+    
+    background: linear-gradient(to right, #4568dc, #b06ab3);
+}
+.text-secondary{
+    color: #f5f5f0;
+}
+
+h1{
+    font-size: 72px;
+}
+h2{
+    font-size: 46px;
+}
+
+
+h1,
+h2 {
+    background: -webkit-linear-gradient(#a8ff78, #78ffd6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+.card{
+    margin: 1rem 0;
+    box-shadow: 0 0 .5rem .2rem rgba(0, 0, 0, .3) !important;
+}
+
+.card-odd{
+    color: #1e1e1e;
+    background: linear-gradient(to right, #4cb8c4, #3cd3ad);
+}
+
+.card-even{
+    color: #1e1e1e;
+    background: linear-gradient(to left, #4cb8c4, #3cd3ad);
+}
+
+

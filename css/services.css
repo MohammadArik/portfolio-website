@@ -1,0 +1,118 @@
+body{
+  color: #f5f5f0;
+  background: linear-gradient(to bottom, #23074d, #cc5333);
+}
+
+
+/* ========== Landing Page ==========*/
+.caption{
+  top: 10%;
+  max-width: 100%;
+}
+.caption .title-text{
+  text-align: left;
+}
+.caption .title-text h1{
+  font-size: 4rem;
+}
+
+#services-heading.btn-outline-light{
+  background-color: #1e1e1e;
+  border: #1e1e1e;
+}
+
+#services-heading .btn-outline-light:hover{
+  background-color: #ffffff;
+  border: #ffffff;
+  color: #1e1e1e;
+}
+
+
+#services-heading .title-text{
+  padding: 4rem 0;
+}
+
+/*============= TEAM CONTENT =============*/
+
+.member{
+  box-shadow: 0 0 .5rem .2rem rgba(0, 0, 0, .3) !important;
+  margin: .5rem 3rem;
+}
+.member .member-img{
+  padding: 2rem;
+}
+.member .about-member{
+  padding-top: 2rem;
+}
+
+.owl-carousel .owl-item{
+  display: flex;
+  justify-content: center;
+  padding: 0 1.5rem;
+}
+
+
+
+
+/*============= MEDIA QUERIES =============*/
+
+/* Devices under 1199px (xl) */
+@media (max-width: 1199.98px) {
+
+}
+/* Devices under 992px (lg) */
+@media (max-width: 991.98px) {
+  .caption{
+    top: 1%;
+    max-width: 100%;
+  }
+  .caption .title-text h1{
+    font-size: 2.3rem;
+  }
+  .caption .title-text h2{
+    font-size: 1.4rem;
+  }
+  .title-text .btn-outline-light{
+    padding: .3rem .6rem;
+    font-size: 1rem;
+  }
+}
+/* Devices under 768px (md) */
+@media (max-width: 767.98px) {
+  /* Fixing carousel caption problem for small devices */
+ 
+}
+/* Devices under 576px (sm) */
+@media (max-width: 426.98px) {
+  .caption{
+      top: 0%;
+      max-width: 100%;
+  }
+  .caption .title-text h1{
+    font-size: 1.2rem;
+  }
+  .caption .title-text h2{
+    font-size: 1rem;
+  }
+  .title-text .btn-outline-light{
+    padding: .2rem .4rem;
+    font-size: .7rem;
+  }
+}
+
+/* Extra Small devices*/
+@media (max-width: 380px) {
+  .caption .title-text h1{
+    margin: 0;
+    font-size: .2rem;
+  }
+  .caption .title-text h2{
+    margin: 0;
+    font-size: .7rem;
+  }
+  .title-text .btn-outline-light{
+    margin: 0;
+    padding: .2rem .4rem;
+    font-size: .7rem;
+  }
+}
