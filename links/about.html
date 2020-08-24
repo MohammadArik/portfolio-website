@@ -7,11 +7,13 @@
 	<title>Mohammad Arik | About</title>
 	<link rel="icon" href="../img/short.ico"> 
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 	<!-- Global Style CSS -->
 	<link rel="stylesheet" href="../css/style.css">
 	<!-- About Style CSS -->
 	<link rel="stylesheet" href="../css/about.css">
+	<!--Animate On Scroll CSS-->
+	<link rel="stylesheet" href="../css/aos.css">
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
 </head>
@@ -61,12 +63,12 @@
 		<section id="about-me">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-7 col-sm-12 py-5">
+					<div data-aos="zoom-in" data-aos-duration="800" data-aos-offset="200" class="col-md-7 col-sm-12 py-5">
 						<h1>About Me</h1>
 						<div class="border-top border-dark w-50 mt-2 pb-2"></div>
 						<p>Hey, I am Arik. My full name is Khondaker Hasan Mohammad Arik. I am a typical student of 9th grade in Bangladesh. I am fond of science. Most of my attraction were in physics and astrophysics, and that's what lead me to programming. It was a science project from when I started coding. And now I am able code in 5 different languages. And still I am learning other languages, libraries, frameworks etc. By now, I think that I can do some work based on my coding skills I earned so far...</p>
 					</div>
-					<div class="col-md-5 col-sm-12 about-img">
+					<div data-aos="zoom-out" data-aos-duration="800" data-aos-offset="200" class="col-md-5 col-sm-12 about-img">
 						<img src="../img/intro1.png" class="img-fluid w-100" alt="My-image">
 					</div>
 				</div>
@@ -78,10 +80,10 @@
 		<section id="python">
 			<div class="container">
 				<div class="row">
-					<div class="d-none d-md-block col-md-5 image">
+					<div data-aos="zoom-out" data-aos-duration="800" data-aos-offset="200" class="col-sm-12 col-md-5 image">
 						<img src="../img/icons/python-icon.png" alt="python-icon">
 					</div>
-					<div class="col-md-7 col-sm-12 py-5">
+					<div data-aos="zoom-in" data-aos-duration="800" data-aos-offset="200" class="col-md-7 col-sm-12 py-5">
 						<h1>My Python Experience</h1>
 						<div class="border-top border-dark w-75 mt-2 pb-2"></div>
 						<p>Python is my most mastered language. Though my first codes were in C++, I only learned the basics of it. On the other hand, I made several applications and web apps with python. Python is famous for its easy-to-understand syntax and its huge bank of libraries and frameworks. I worked with framworks and libraries like TensorFlow, Django, Matplotlib, Numpy, Tkinter etc.. My major project with python was a customizable deep learning chatbot.. You can check some of my projects <a href="./projects.html" class="btn btn-outline-light btn-sm">from here</a>...</p>
@@ -96,13 +98,16 @@
 		<!-- Start MySQL Section -->
 		<section id="mysql">
 			<div class="container">
-				<div class="row">					
-					<div class="col-md-7 col-sm-12 py-5">
+				<div class="row">
+					<div data-aos="zoom-out" data-aos-duration="800" data-aos-offset="200" class="d-block d-sm-block d-md-none image">
+						<img src="../img/programming Languages/dart.png" alt="dart-icon">
+					</div>					
+					<div data-aos="zoom-in" data-aos-duration="800" data-aos-offset="200" class="col-md-7 col-sm-12 py-5">
 						<h1>My Dart Experience</h1>
 						<div class="border-top border-dark w-75 mt-2 pb-2"></div>
-						<p>Dart is a language developed by Google. It is used to make cross-platform applications with flutter. This language is becomeing popular because of the flutter framework. You can make Android, iOS, Web and Desktop application with only one code base. Though I am a beginner in this thing but it is easy to make beautiful and exclusive apps with it. You will fond some in Download and Projects page.</p>
+						<p>Dart is a language developed by Google. It is used to make cross-platform applications with flutter. This language is becomeing popular because of the flutter framework. You can make Android, iOS, Web and Desktop application with only one code base. Though I am a beginner in this thing but it is easy to make beautiful and exclusive apps with it. You will found some in Download and Projects page.</p>
 					</div>
-					<div class="d-none d-md-block col-md-5 image">
+					<div data-aos="zoom-out" data-aos-duration="800" data-aos-offset="200" class="d-none d-md-block col-md-5 image">
 						<img src="../img/programming Languages/dart.png" alt="mysql-icon">
 					</div>
 				</div>
@@ -114,11 +119,11 @@
 		<section id="java">
 			<div class="container">
 				<div class="row">
-					<div class="d-none d-md-block col-md-5 image">
-						<img src="../img/programming Languages/java.png" class="img-fluid w-75" alt="java-icon">
+					<div data-aos="zoom-out" data-aos-duration="800" data-aos-offset="200" class="col-sm-12 col-md-5 image">
+						<img src="../img/programming Languages/java.png"  alt="java-icon">
 					</div>
 
-					<div class="col-md-7 col-sm-12 py-5">
+					<div data-aos="zoom-in" data-aos-duration="800" data-aos-offset="200" class="col-md-7 col-sm-12 py-5">
 						<h1>My Java Experience</h1>
 						<div class="border-top border-dark w-75 mt-2 pb-2"></div>
 						<p>Java is an another programming language. Some people find it hard due to its coding syntax, but it gets easy by practising. My main objective to learn java was to make interactive, complex and real world software applications. That's why thw only major framework I am familiar with in java is JavaFX. You can check some of my projects <a href="./projects.html" class="btn btn-outline-light btn-sm">from here</a>...</p>
@@ -131,13 +136,16 @@
 		<!-- Start Web Develop Section -->
 		<section id="webdev">
 			<div class="container">
-				<div class="row">					
-					<div class="col-md-7 col-sm-12 py-5">
+				<div class="row">
+					<div data-aos="zoom-out" data-aos-duration="800" data-aos-offset="200" class="d-block d-sm-block d-md-none image">
+						<img src="../img/icons/htmlcss-icon.png" alt="html-css-icon">
+					</div>					
+					<div data-aos="zoom-in" data-aos-duration="800" data-aos-offset="200" class="col-md-7 col-sm-12 py-5">
 						<h1>My Web Devlopment Experience</h1>
 						<div class="border-top border-dark w-75 mt-2 pb-2"></div>
 						<p>Html and css was my first step in coding for computers i.e. for modern devices. Before I coded only for microcontrollers. But after that I came to know with html and css by challenge with a friend. I also use bootstrap 4 for making websites responsive easily. You can see this website as an example of my work in website designing and development field...</p>
 					</div>
-					<div class="d-none d-md-block col-md-5 image">
+					<div data-aos="zoom-out" data-aos-duration="800" data-aos-offset="200" class="d-none d-md-block col-md-5 image">
 						<img src="../img/icons/htmlcss-icon.png" alt="htmlcss-icon">
 					</div>
 				</div>
@@ -149,10 +157,10 @@
 		<section id="javascript">
 			<div class="container">
 				<div class="row">
-					<div class="d-none d-md-block col-md-5 image">
+					<div data-aos="zoom-out" data-aos-duration="800" data-aos-offset="200" class="col-sm-12 col-md-5 image">
 						<img src="../img/icons/js-icon.png" alt="javascript-icon">
 					</div>
-					<div class="col-md-7 col-sm-12 py-5">
+					<div data-aos="zoom-in" data-aos-duration="800" data-aos-offset="200" class="col-md-7 col-sm-12 py-5">
 						<h1>My JavaScript Experience</h1>
 						<div class="border-top border-dark w-75 mt-2 pb-2"></div>
 						<p>JavaScript is one of the popular language in the world. I am just a starter in this language. This is a compulsory language to develop websites and web apps. I have some plans working on react.js and react native. React native is a popular choise for app development and as you may have already noticed I have a deep interest in software development. I have'nt done anything major with this language but you can see the YouTube section of this website as an example...</p>
@@ -229,10 +237,13 @@
 
 	<!-- jQuery -->
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<!-- Animate On Scroll -->
+	<script src="../js/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
 	<!-- Bootstrap JS -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-	<!-- Popper JS -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<!-- Font Awesome -->
 	<script src="../js/all.min.js"></script>
 

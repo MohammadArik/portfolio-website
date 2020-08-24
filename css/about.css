@@ -7,7 +7,7 @@
 }
 body{
     color: #f5f5f0;
-    background: linear-gradient(to top, #5f2c82, #49a09d);
+    background: linear-gradient(to right, #5f2c82, #49a09d);
 }
 
 /*==== Python and Web development ====*/
@@ -36,8 +36,18 @@ body{
     }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 768.98px) {
     #mysql .image{
         padding-left: 0 !important;
+    }
+    #java .image{
+        padding-left: 0 !important;
+    }
+    #javascript .image{
+        padding-left: 0rem;
+    }
+    #webdev .image,
+    #python .image{
+        padding-left: 0rem;
     }
 }

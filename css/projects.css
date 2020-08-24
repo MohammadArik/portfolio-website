@@ -1,6 +1,6 @@
 body {
     color: #f5f5f0;
-    background: linear-gradient(to bottom, #fc5c7d, #6a82fb);
+    background: linear-gradient(to left, #fc5c7d, #6a82fb);
 	overflow-x: hidden; /*--right gutter fix--*/
 }
 

@@ -7,11 +7,13 @@
 	<title>Mohammad Arik | Services</title>
 	<link rel="shortcut icon" href="../img/short.ico"> 
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="../css/bootstrap.min.css">
-	<!-- Style CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<!-- Global Style CSS -->
 	<link rel="stylesheet" href="../css/style.css">
-	<!-- Style CSS -->
+	<!-- Page Style CSS -->
 	<link rel="stylesheet" href="../css/services.css">
+	<!--Animate On Scroll CSS-->
+	<link rel="stylesheet" href="../css/aos.css">
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
 </head>
@@ -66,12 +68,12 @@
 					
 					<div class="carousel-caption caption center-block">
 						<div class="row">
-							<div class="col-sm-12 col-md-6 col-lg-8 title-text">
+							<div data-aos="fade-right" data-aos-duration="1000" class="col-sm-12 col-md-6 col-lg-8 title-text">
 								<h1>Welcome to Services</h1>
 								<h2>Hava a work? You are just an e-mail away...</h2>
 								<a href="mailto:+arik.62@outlook.com" class="btn btn-outline-light btn-lg">Let's Go</a>
 							</div>
-							<div class="d-none d-md-block col-md-6 col-lg-4">
+							<div data-aos="fade-left" data-aos-duration="1000" class="d-none d-md-block col-md-6 col-lg-4">
 								<a href="mailto:+arik.62@outlook.com">
 									<img src="../img/services-email.png" alt="" class="w-100">
 								</a>
@@ -85,7 +87,7 @@
 		<!-- End Intro Projects -->
 		<!-- Start Heading Services-->
 		<section id="services-heading">
-			<div class="container">
+			<div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-offest="150" class="container">
 				<h1 class="pt-4">Quality, Time and Efficiency</h1>
 				<div class="border-top border-light w-75 mb-3"></div>
 				<p class="lead">Quality work in low cost.. As a beginner, I and my team(if you need) are delvering the same quality as others at a lower cost.</p>
@@ -98,49 +100,53 @@
 		<!-- Start Service Info-->
 		<section id="service-info">
 			<div class="container pt-4">
-				<div class="title-text">
+				<div data-aos="zoom-out-down" data-aos-duration="500" data-aos-offest="150" class="title-text">
 					<h1 class="pt-4">Services Information</h1>
 					<div class="border-top border-light w-75 justify-content-left"></div>
 					<p class="lead">Works I can do for you....</p>
 				</div>
-				<div class="row">
-					
-					<div id="softdev" class="col-sm-12 col-md-5 pt-3">
-						<img  src="../img/Services/software.png" class="w-75 img-fluid" alt="software development icon">
-					</div>
-					<div class="col-md-7 col-sm-12 py-5">
-						<h1>Software Development</h1>
-						<div class="border-top border-light w-100 mt-2 pb-2"></div>
-						<p>Need a desktop application software for your start-up? I can help you with this. Complex apps to simple apps, I can make it for you. For a simple app it can be built using tkinter and python. And for Enterprise-class, complex apps java with javafx framework is here to help. So don't wait click the e-mail button up there right now.</p>
-					</div>
 				
-					<div id="mobiledev" class="col-sm-12 col-md-5 pt-3">
-						<img  src="../img/Services/mobile development.png" class="w-75 img-fluid" alt="Web Design Icon">
+				<div class="row">
+
+					<div data-aos="zoom-out-right" data-aos-duration="1000" data-aos-offest="150" id="mobiledev" class="col-sm-12 col-md-5 pt-3">
+						<img src="../img/Services/mobile development.png" class="w-75 img-fluid" alt="Web Design Icon">
 					</div>
-					<div class="col-md-7 col-sm-12 py-5">
+
+					<div data-aos="zoom-in-left" data-aos-duration="1000" data-aos-offest="150" class="col-md-7 col-sm-12 py-5">
 						<h1>Mobile App Development</h1>
 						<div class="border-top border-light w-100 mt-2 pb-2"></div>
 						<p>In this world, mobile is an undividable part of our life. That's why every company, business, start-ups etc. wants to have their own mobile app. That's why I am here to help you. With Flutter and Firebase it is easy and fast to make cross-platform apps featuring both Android and iOS. So don't wait click the e-mail button up there right now.</p>
 					</div>
 				
-					<div id="webdev" class="col-sm-12 col-md-5 pt-3">
+					<div data-aos="zoom-out-right" data-aos-duration="1000" data-aos-offest="150" id="softdev" class="col-sm-12 col-md-5 pt-3">
+						<img src="../img/Services/software.png" class="w-75 img-fluid" alt="software development icon">
+					</div>
+
+					<div data-aos="zoom-in-left" data-aos-duration="1000" data-aos-offest="150" class="col-md-7 col-sm-12 py-5">
+						<h1>Software Development</h1>
+						<div class="border-top border-light w-100 mt-2 pb-2"></div>
+						<p>Need a desktop application software for your start-up? I can help you with this. Complex apps to simple apps, I can make it for you. For a simple app it can be built using tkinter and python. And for Enterprise-class, complex apps java with javafx framework is here to help. So don't wait click the e-mail button up there right now.</p>
+					</div>
+				
+					<div data-aos="zoom-out-right" data-aos-duration="1000" data-aos-offest="150" id="webdev" class="col-sm-12 col-md-5 pt-3">
 						<img src="../img/Services/website.png" class="w-75 img-fluid" alt="Web Development Icon">
 					</div>
-					<div class="col-md-7 col-sm-12 py-5">
+
+					<div data-aos="zoom-in-left" data-aos-duration="1000" data-aos-offest="150" class="col-md-7 col-sm-12 py-5">
 						<h1>Web Design And Development</h1>
 						<div class="border-top border-light w-100 mt-2 pb-2"></div>
 						<p>Website is a good way to spread your start-up across the globe. A website is the core of every modern company's digital eco-system. A well developed website make the way easier to develop other digital platforms. I can do it for you. You can have exclusive and modern website with html5, css3, Bootstrap and others for the front-end. And Python Web frameworks like Django or Flask for the back-end. So don't wait click the e-mail button up there right now.</p>
 					</div>
 				
-					<div id="ai-imp" class="col-sm-12 col-md-5 pt-3">
+					<div data-aos="zoom-out-right" data-aos-duration="1000" data-aos-offest="150" id="ai-imp" class="col-sm-12 col-md-5 pt-3">
 						<img src="../img/Services/ai.png" class="w-75 img-fluid" alt="Web Development Icon">
 					</div>
-					<div class="col-md-7 col-sm-12 py-5">
+
+					<div data-aos="zoom-in-left" data-aos-duration="1000" data-aos-offest="150" class="col-md-7 col-sm-12 py-5">
 						<h1>AI Implementation</h1>
 						<div class="border-top border-light w-100 mt-2 pb-2"></div>
 						<p>AI is now the most trending techology in the world. And it will be nice to have it in your existing or future websites, right? I can help you with these. I can implement some basic AI technology like chatbots in website. With cloud services like IBM Cloud it is now super easy and fast. So don't wait click the e-mail button up there right now.</p>
 					</div>
-					
 				</div>
 			</div>
 		</section>
@@ -211,11 +217,14 @@
 	<!-- Script Source Files -->
 
 	<!-- jQuery -->
-	<script src="../js/jquery-3.4.1.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<!-- Animate On Scroll -->
+	<script src="../js/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
 	<!-- Bootstrap JS -->
-	<script src="../js/bootstrap.min.js"></script>
-	<!-- Popper JS -->
-	<script src="../js/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<!-- Font Awesome -->
 	<script src="../js/all.min.js"></script>
 
